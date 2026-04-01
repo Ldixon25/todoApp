@@ -71,4 +71,4 @@ function saveTodos(){
 function getTodos(){
     const todos = localStorage.getItem("todos") || "[]";
     return JSON.parse(todos);
-}
+}   
